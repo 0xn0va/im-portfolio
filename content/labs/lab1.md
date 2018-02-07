@@ -1,6 +1,7 @@
 ---
-title: "Lab1"
-date: 2018-02-07T13:57:08+02:00
+title: "Lab 1"
+weight: 1
+date: 2018-02-07T15:07:59+02:00
 draft: false
 ---
 ## Lab Number 1 

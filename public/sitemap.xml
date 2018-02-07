@@ -3,23 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://shajadi.com/im/post/lab1/</loc>
-    <lastmod>2018-02-07T13:57:08+02:00</lastmod>
+    <loc>http://shajadi.com/im/labs/lab1/</loc>
+    <lastmod>2018-02-07T15:07:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shajadi.com/im/labs/lab2/</loc>
+    <lastmod>2018-02-07T15:16:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shajadi.com/im/labs/lab3/</loc>
+    <lastmod>2018-02-07T15:16:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shajadi.com/im/labs/lab4/</loc>
+    <lastmod>2018-02-07T15:16:41+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shajadi.com/im/labs/lab5/</loc>
+    <lastmod>2018-02-07T15:16:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://shajadi.com/im/labs/</loc>
+    <lastmod>2018-02-07T15:07:36+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://shajadi.com/im/</loc>
-    <lastmod>2018-02-07T13:57:08+02:00</lastmod>
+    <lastmod>2018-02-07T15:07:59+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://shajadi.com/im/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://shajadi.com/im/post/</loc>
-    <lastmod>2018-02-07T13:57:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   

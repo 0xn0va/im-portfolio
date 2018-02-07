@@ -6,3 +6,18 @@ theme = "learn"
 [params]
     author = "Shajadi"
     locale = "en-US"
+		themeVariant = "red"
+
+
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/shajadi/im-portfolio"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Shajadi.com"
+identifier = "shajadi"
+url = "https://shajadi.com/"
+weight = 20
