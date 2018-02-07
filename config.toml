@@ -1,0 +1,8 @@
+baseURL = "http://shajadi.com/im/"
+languageCode = "en-us"
+title = "Interactive Multimedia Course Portfolio"
+theme = "learn"
+
+[params]
+    author = "Shajadi"
+    locale = "en-US"
