@@ -2,6 +2,7 @@ baseURL = "http://shajadi.com/im/"
 languageCode = "en-us"
 title = "Interactive Multimedia Course Portfolio"
 theme = "learn"
+staticDir = ["static"]
 
 [params]
     author = "Shajadi"

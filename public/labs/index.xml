@@ -17,18 +17,10 @@
       <pubDate>Wed, 07 Feb 2018 15:07:59 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab1/</guid>
-      <description> Lab Number 1  Definitions
-a. HTML
-b. CSS
-c. Javascript
-d. HTTP
-e. HTML5
-f. Dynamic HTML (DHTML)
- Coding conventions
- HTML5
- Developer tools
- Dynamic HTML
-  </description>
+      <description>Definitions
+a. HTML: stands for Hypertext Markup Language that is a mark up language and not a programming language and we can build web pages and we can import stylesheet and javascript too
+b. CSS: stands for Cascading Style Sheet is a markup language to writing the style of a web page and it can be imported and written directly in html files
+c. Javascript: is a programming language that is weakly typed and interpreted developed to run in web browsers because of being fast and light, currently we can run js in server side with technologies like nodejs too, all the modern browsers support javascript.</description>
     </item>
     
     <item>
@@ -64,6 +56,15 @@ f. Dynamic HTML (DHTML)
       <pubDate>Wed, 07 Feb 2018 15:16:45 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lab 6</title>
+      <link>http://shajadi.com/im/labs/lab6/</link>
+      <pubDate>Sun, 11 Feb 2018 15:16:45 +0200</pubDate>
+      
+      <guid>http://shajadi.com/im/labs/lab6/</guid>
       <description></description>
     </item>
     
