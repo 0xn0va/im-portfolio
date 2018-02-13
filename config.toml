@@ -7,7 +7,7 @@ staticDir = ["static"]
 [params]
     author = "Shajadi"
     locale = "en-US"
-		themeVariant = "red"
+		themeVariant = "green"
 
 
 
