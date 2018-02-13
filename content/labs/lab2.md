@@ -46,6 +46,25 @@ before RWD? What is the difference?
 
 [Link](/im/lab2/lab2.html)
 
+- how could you prevent user zooming the site on mobile?
+
+	with adding the following meta tag 
+	`<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />`
+	
+#### 4 Adding stuff
+
+[Link](/im/lab2/lab2-4.html)
+
+- Reason of Figure tag:
+
+	It holds a self contained content like a picture that is related to the main flow of the website.
+	
+#### 5 Responsive person list
+
+[Link](/im/lab2/person.html)
+
+
+
 
 
 
