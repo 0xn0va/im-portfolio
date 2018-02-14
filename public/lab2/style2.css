@@ -1,0 +1,51 @@
+body {
+	background-color: lightgrey; 
+}
+header, article, aside, footer, ul, li, p {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header {
+    padding: 0.5em 1em;
+    margin: 0 5% 1em;
+		margin-top: 0.5em;
+		background-color: darkgray;
+}
+article {
+    padding: 0.5em 1em;
+    margin: 0 5% 1em;
+		min-height: 10em;
+}
+aside {
+    padding: 0.5em 1em;
+    margin: 0 5% 0.5em;
+		min-height: 5em;
+    background-color: lightgrey; 
+}
+h1 { 
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h1, h2 {
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+p { 
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+@media only screen and (min-width: 38em) {
+    article {
+        width: 67%;
+        float: right;
+        margin-left: 0;
+    }
+    aside {
+        width: 21%;
+        float: left;
+        margin-right: 0;
+    }
+}

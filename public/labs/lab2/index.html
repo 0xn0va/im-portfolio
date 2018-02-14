@@ -13,19 +13,19 @@
     <title>Lab 2 :: Interactive Multimedia Course Portfolio</title>
     
     
-    <link href="/im/css/nucleus.css?1518518507" rel="stylesheet">
-    <link href="/im/css/font-awesome.min.css?1518518507" rel="stylesheet">
-    <link href="/im/css/hybrid.css?1518518507" rel="stylesheet">
-    <link href="/im/css/featherlight.min.css?1518518507" rel="stylesheet">
-    <link href="/im/css/perfect-scrollbar.min.css?1518518507" rel="stylesheet">
-    <link href="/im/css/auto-complete.css?1518518507" rel="stylesheet">
-    <link href="/im/css/theme.css?1518518507" rel="stylesheet">
-    <link href="/im/css/hugo-theme.css?1518518507" rel="stylesheet">
+    <link href="/im/css/nucleus.css?1518602627" rel="stylesheet">
+    <link href="/im/css/font-awesome.min.css?1518602627" rel="stylesheet">
+    <link href="/im/css/hybrid.css?1518602627" rel="stylesheet">
+    <link href="/im/css/featherlight.min.css?1518602627" rel="stylesheet">
+    <link href="/im/css/perfect-scrollbar.min.css?1518602627" rel="stylesheet">
+    <link href="/im/css/auto-complete.css?1518602627" rel="stylesheet">
+    <link href="/im/css/theme.css?1518602627" rel="stylesheet">
+    <link href="/im/css/hugo-theme.css?1518602627" rel="stylesheet">
     
-      <link href="/im/css/theme-red.css?1518518507" rel="stylesheet">
+      <link href="/im/css/theme-green.css?1518602627" rel="stylesheet">
     
 
-    <script src="/im/js/jquery-2.x.min.js?1518518507"></script>
+    <script src="/im/js/jquery-2.x.min.js?1518602627"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/im/js/lunr.min.js?1518518507"></script>
-<script type="text/javascript" src="/im/js/auto-complete.js?1518518507"></script>
+<script type="text/javascript" src="/im/js/lunr.min.js?1518602627"></script>
+<script type="text/javascript" src="/im/js/auto-complete.js?1518602627"></script>
 <script type="text/javascript">
     
         var baseurl = '\/im\/';
     
 </script>
-<script type="text/javascript" src="/im/js/search.js?1518518507"></script>
+<script type="text/javascript" src="/im/js/search.js?1518602627"></script>
 
     
   </div>
@@ -289,7 +289,24 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#1-rwd">1 RWD</a></li>
+<li><a href="#2-rwd-examples">2 RWD examples</a></li>
+<li><a href="#3-rwd-in-practice">3 RWD in practice</a></li>
+<li><a href="#4-adding-stuff">4 Adding stuff</a></li>
+<li><a href="#5-responsive-person-list">5 Responsive person list</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -307,14 +324,71 @@
         
 
 
+
+
+<h4 id="1-rwd">1 RWD</h4>
+
 <ul>
 <li><p>What is the purpose of the RWD? Why it is used? How things are done
 before RWD? What is the difference?</p>
 
-<p>Responsive web design (RWD) is the way of writing web application with the help of mosly css technology to make the web page responsive to different windows size and show properly in for example big screen, normal desktop screen, tablet and mobile phone, with responsive design element posision changes on different screen size so navigating the web page is easier and usage of space on the page is more efficent. before RWD pages were build with one set of specification and on different screen size user had to zoom in and out or scroll horrizontally to see other parts of the page.</p></li>
+<p>Responsive web design (RWD) is the way of writing web application with the help of mostly css technology to make the web page responsive to different windows size and show properly in for example big screen, normal desktop screen, tablet and mobile phone, with responsive design element position changes on different screen size so navigating the web page is easier and usage of space on the page is more efficient. before RWD pages were build with one set of specification and on different screen size user had to zoom in and out or scroll horizontally to see other parts of the page.</p></li>
 
-<li><p>How css media queries can help you building responsive web sites?</p></li>
+<li><p>How css media queries can help you building responsive web sites?</p>
+
+<p>the @media makes the css under it works on a certain condition that is for example a maximum width of screen. with  the help of media query we can define different sizes for same element that applies only on their own screen size this way we can design responsive web pages.</p></li>
+
+<li><p>Why to use em (font) based sizing for example margins?</p>
+
+<p>If we don&rsquo;t use em for fonts and use pixels we need to defines different size for every screen size but of we design the web page all with em for fonts and margins and paddings it automatically changes modify them for bigger and smaller screen size so it looks good.</p></li>
+
+<li><p>Article is already 7 years old, do we have any new technology which can be used to achieve same type of UI responsiveness as described in the article. Buzz words: (CSS Grid, Flexbox)</p>
+
+<p>There are technologies that we can use to make responsive web design easier and faster and more efficient like CSS Grid and Flexbox but understanding the place to use them is important too.</p>
+
+<p>CSS Grid is a grid based layout system that element of the page goes inside pre defined grids that split page to column and rows in different sections and all these are responsive big frameworks like bootstrap use grid system.</p>
+
+<p>Before Flexbox developers had to use blocks and inlines and tables and different kind of possitioning that making them responsible was not fast and easy but with Flexbox layout making a responsive container is very easy and fast without float and different positioning elements we just need to use a main flex container and define display to flex in css. and put our element inside flex container.</p></li>
 </ul>
+
+<h4 id="2-rwd-examples">2 RWD examples</h4>
+
+<p><img src="/im/lab2/pics/1.png" alt="screenshot1" title="screenshot1" /></p>
+
+<p><img src="/im/lab2/pics/2.png" alt="screenshot2" title="screenshot2" /></p>
+
+<p><img src="/im/lab2/pics/3.png" alt="screenshot3" title="screenshot3" /></p>
+
+<p><img src="/im/lab2/pics/4.png" alt="screenshot4" title="screenshot4" /></p>
+
+<p><img src="/im/lab2/pics/5.png" alt="screenshot5" title="screenshot5" /></p>
+
+<p><img src="/im/lab2/pics/6.png" alt="screenshot6" title="screenshot6" /></p>
+
+<h4 id="3-rwd-in-practice">3 RWD in practice</h4>
+
+<p><a href="/im/lab2/lab2.html">Link</a></p>
+
+<ul>
+<li><p>how could you prevent user zooming the site on mobile?</p>
+
+<p>with adding the following meta tag
+<code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, user-scalable=no&quot; /&gt;</code></p></li>
+</ul>
+
+<h4 id="4-adding-stuff">4 Adding stuff</h4>
+
+<p><a href="/im/lab2/lab2-4.html">Link</a></p>
+
+<ul>
+<li><p>Reason of Figure tag:</p>
+
+<p>It holds a self contained content like a picture that is related to the main flow of the website.</p></li>
+</ul>
+
+<h4 id="5-responsive-person-list">5 Responsive person list</h4>
+
+<p><a href="/im/lab2/person.html">Link</a></p>
 
 
 <footer class=" footline" >
@@ -487,20 +561,20 @@ before RWD? What is the difference?</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/im/js/clipboard.min.js?1518518507"></script>
-    <script src="/im/js/perfect-scrollbar.min.js?1518518507"></script>
-    <script src="/im/js/perfect-scrollbar.jquery.min.js?1518518507"></script>
-    <script src="/im/js/jquery.sticky.js?1518518507"></script>
-    <script src="/im/js/featherlight.min.js?1518518507"></script>
-    <script src="/im/js/html5shiv-printshiv.min.js?1518518507"></script>
-    <script src="/im/js/highlight.pack.js?1518518507"></script>
+    <script src="/im/js/clipboard.min.js?1518602627"></script>
+    <script src="/im/js/perfect-scrollbar.min.js?1518602627"></script>
+    <script src="/im/js/perfect-scrollbar.jquery.min.js?1518602627"></script>
+    <script src="/im/js/jquery.sticky.js?1518602627"></script>
+    <script src="/im/js/featherlight.min.js?1518602627"></script>
+    <script src="/im/js/html5shiv-printshiv.min.js?1518602627"></script>
+    <script src="/im/js/highlight.pack.js?1518602627"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/im/js/modernizr.custom.71422.js?1518518507"></script>
-    <script src="/im/js/learn.js?1518518507"></script>
-    <script src="/im/js/hugo-learn.js?1518518507"></script>
+    <script src="/im/js/modernizr.custom.71422.js?1518602627"></script>
+    <script src="/im/js/learn.js?1518602627"></script>
+    <script src="/im/js/hugo-learn.js?1518602627"></script>
 
-    <link href="/im/mermaid/mermaid.css?1518518507" type="text/css" rel="stylesheet" />
-    <script src="/im/mermaid/mermaid.js?1518518507"></script>
+    <link href="/im/mermaid/mermaid.css?1518602627" type="text/css" rel="stylesheet" />
+    <script src="/im/mermaid/mermaid.js?1518602627"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
