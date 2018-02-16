@@ -38,7 +38,11 @@ Responsive web design (RWD) is the way of writing web application with the help 
       <pubDate>Wed, 07 Feb 2018 15:16:38 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab3/</guid>
-      <description></description>
+      <description>1 Web Sockets Link
+ What happens if you send a message: ”LOGO”?
+It returns the html code of logo
+  2 Local Storage Link
+3 Audio element Link</description>
     </item>
     
     <item>
@@ -47,7 +51,8 @@ Responsive web design (RWD) is the way of writing web application with the help 
       <pubDate>Wed, 07 Feb 2018 15:16:41 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab4/</guid>
-      <description></description>
+      <description>1 Very simple draw application Link
+2 Simple game Link</description>
     </item>
     
     <item>

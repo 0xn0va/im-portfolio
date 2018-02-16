@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 3 chat</title>
+    <link rel="stylesheet" href="chat.css">
+  </head>
+  <body>
+        <div id="chat-text">
+          <h3>No message yet. Please write some...</h3>
+        </div>
+
+            <div class="field">
+              <div class="control">
+                <input class="input" id="message" placeholder="Write your message..." type="text"
+                       onkeypress="onKeyPressInput(event)">
+              </div>
+          <div class="column is-4">
+            <button class="button is-link is-outlined w-100" id="sendBtn" onclick="sendMessage()">Send</button>
+          </div>
+        </div>
+          <b id="connection">Chat server is down</b>
+  </body>
+	<script src="chat.js"></script>
+</html>
