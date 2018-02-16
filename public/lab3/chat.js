@@ -1,10 +1,7 @@
 var messageArr = [];
 var connection = new WebSocket('ws://obscure-waters-98157.herokuapp.com');
-function element(id) {
-  return document.getElementById(id);
-}
 function setConnectionStatus(status) {
-  var statusMsg = element('connection');
+  var statusMsg = document.getElementById('connection');
   statusMsg.innerHTML = status;
 }
 connection.onopen = function() {
@@ -14,10 +11,12 @@ connection.onerror = function(error) {
   setConnectionStatus('Error');
 };
 function onKeyPressInput(evt) {
+  if (evt.keyCode === 50) {
     sendMessage();
+  }
 }
 function sendMessage() {
-  var messageParam = element('message');
+  var messageParam = document.getElementById('message');
   connection.send(messageParam.value);
   messageParam.value = '';
 }
@@ -31,13 +30,13 @@ connection.onmessage = function(e) {
 };
 function renderMessages() {
   clearChatContent();
-  var chatText = element('chat-text');
+  var chatText = document.getElementById('chat-text');
   messageArr.forEach(function(element) {
     chatText.appendChild(element);
   });
 }
 function clearChatContent() {
-  var chatText = element('chat-text');
+  var chatText = document.getElementById('chat-text');
   while (chatText.firstChild) {
     chatText.removeChild(chatText.firstChild);
   }
