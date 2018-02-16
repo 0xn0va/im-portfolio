@@ -61,7 +61,10 @@ It returns the html code of logo
       <pubDate>Wed, 07 Feb 2018 15:16:45 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab5/</guid>
-      <description></description>
+      <description>1 Getting familiar with jQuery  What you can do with the jQuery?
+jQuery is a famous javascript library that loads in clients browsers and facilitate developing a web application with javascript, its open source
+ How it can help you as web developer?
+It has internal functions and selectors for working with DOM and html and also working with Json and it makes programming the logic part of application easy</description>
     </item>
     
     <item>
@@ -70,7 +73,8 @@ It returns the html code of logo
       <pubDate>Sun, 11 Feb 2018 15:16:45 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab6/</guid>
-      <description></description>
+      <description>1 Flickr photo wall Link
+2 Node.js &amp;amp; Heroku Tutorial Heroku App</description>
     </item>
     
   </channel>

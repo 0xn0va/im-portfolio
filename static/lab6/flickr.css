@@ -1,0 +1,29 @@
+body {
+  padding: 0.5em;
+  background-color: #000;
+}
+
+.row {
+  text-align: center;
+}
+
+.cell {
+  display: inline-block;
+  width: 13em;
+  height: 13em;
+  border: 0.5em solid #000;
+}
+
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.input {
+  width: auto;
+  display: inline-block;
+}
+.input-box {
+  margin: 5em 0;
+  display: flex;
+  justify-content: center;
+}
