@@ -38,11 +38,11 @@ Responsive web design (RWD) is the way of writing web application with the help 
       <pubDate>Wed, 07 Feb 2018 15:16:38 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab3/</guid>
-      <description>1 Web Sockets Link
+      <description>1 Web Sockets Connecting to chat server that located in Heroku and showing and showing the results and user input on browser with a simple html page using javascript.
+Link
  What happens if you send a message: ”LOGO”?
 It returns the html code of logo
-  2 Local Storage Link
-3 Audio element Link</description>
+  2 Local Storage Developing person list further to comply with mvc design pattern, I put model, view and controller code in different js files, also implementing usage of browser local storage to save user input locally with javascript prototype method.</description>
     </item>
     
     <item>
@@ -51,8 +51,9 @@ It returns the html code of logo
       <pubDate>Wed, 07 Feb 2018 15:16:41 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab4/</guid>
-      <description>1 Very simple draw application Link
-2 Simple game Link</description>
+      <description>1 Very simple draw application Implemented a simple app with canvas that user can draw lines with guide lines. that shows a preview of final stroke with dotted line and after the user releases the mouse it draws the line.
+Link
+2 Simple game The game with canvas and javascript that starts when user click on the canvas area and needs to click on appeared red boxes until the time goes to zero (default is 10 seconds) then shows the clicked results.</description>
     </item>
     
     <item>
@@ -73,8 +74,10 @@ It has internal functions and selectors for working with DOM and html and also w
       <pubDate>Sun, 11 Feb 2018 15:16:45 +0200</pubDate>
       
       <guid>http://shajadi.com/im/labs/lab6/</guid>
-      <description>1 Flickr photo wall Link
-2 Node.js &amp;amp; Heroku Tutorial Heroku App</description>
+      <description>1 Flickr photo wall A search application with interface details provided on Lab document that connects to Flickr api and search the user input and fetch and shows the preview of found pictures on the screen.
+Link
+2 Node.js &amp;amp; Heroku Default tutorial Heroku nodejs application.
+Tutorial Heroku App</description>
     </item>
     
   </channel>

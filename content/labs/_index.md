@@ -7,4 +7,4 @@ chapter: true
 
 # LABS
 
-Interactive Multimadia Labs
+Interactive Multimedia Labs
