@@ -44,6 +44,8 @@ before RWD? What is the difference?
 
 #### 3 RWD in practice
 
+A responsive static web page with text that uses reset for responsiveness.
+
 [Link](/im/lab2/lab2.html)
 
 - how could you prevent user zooming the site on mobile?
@@ -53,6 +55,8 @@ before RWD? What is the difference?
 	
 #### 4 Adding stuff
 
+Same page but added a picture with html figure tag that makes it relative to other elements.
+
 [Link](/im/lab2/lab2-4.html)
 
 - Reason of Figure tag:
@@ -60,6 +64,8 @@ before RWD? What is the difference?
 	It holds a self contained content like a picture that is related to the main flow of the website.
 	
 #### 5 Responsive person list
+
+The person list from first lab that now is responsive. using "em" and also the placement of javascript import at the end of the file for better speed of loading page, it will get better for next labs.
 
 [Link](/im/lab2/person.html)
 

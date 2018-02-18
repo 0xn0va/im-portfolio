@@ -25,12 +25,16 @@ I'm using the convention from http://codeguide.co/
 
 #### 3 HTML5
 
+A simple HTML page with imported Javascript ad CSS files.
+
 [Link](/im/lab1/lab1.html)
 
 #### 4 Developer tools
 
-I'm working with Inspector on daily basis at work.
+I'm working with Inspector and its tools on daily basis at work.
 
 #### 5 Dynamic HTML
+
+A simple form that add users input to the list, this task with get better in next labs.
 
 [Link](/im/lab1/dhtml.html)

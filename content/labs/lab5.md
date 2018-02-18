@@ -26,9 +26,13 @@ draft: false
 	
 #### 2 More jQuery
 
+Adding JQuery and bootstrap to our Person list application that started from first lab and being developed gradually.
+
 [Link](/im/lab5/person-jquery.html)
 
 #### 3 Ajax
+
+A simple page that demonstrate fetching jsonp remotely with ajax using JQuery and displaying the list on the page.
 
 [Link](/im/lab5/person-ajax.html)
 
